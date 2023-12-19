@@ -22,6 +22,7 @@ import compression from 'express-compression'
 import { nanoid } from 'nanoid'
 import loggerMiddleware from "./logger.Middleware"
 
+//logger
 app.use(loggerMiddleware)
 
 app.get("/", function(req,res){
